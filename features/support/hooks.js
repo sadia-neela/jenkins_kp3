@@ -11,7 +11,15 @@ BeforeAll(function () {
 Before(function (scenario) {
   console.log(">>> Before: Runs before each scenario");
   console.log(`Scenario name: ${scenario.pickle.name}`);
+  const labelValue = process.env.LABEL;
+
+  if (labelValue) {
+    AllureReporter.addTag('customLabel', labelValue);
+    console.log(`Added label: customLabel = ${labelValue}`);
+  }
 });
+
+
 
 // Runs before each step
 BeforeStep(function (step) {
