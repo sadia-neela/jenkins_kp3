@@ -8,5 +8,5 @@ Feature: The Internet
 
     Examples:
       | username | password             | message                        |
-      | tomsmith | SuperSecretPassword  | You logged into a secure area! |
+      | tomsmith | SuperSecretPassword! | You logged into a secure area! |
       | foobar   | barfoo               | Your username is invalid!      |
