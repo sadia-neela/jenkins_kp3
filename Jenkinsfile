@@ -27,11 +27,13 @@ pipeline {
 
     post {
         always {
-            allure([
-                includeProperties: false,
-                jdk: '',
-                results: [[path: 'allure-results']]
-            ])
+             allure([
+               commandline: 'allure',           
+               results: [[path: 'allure-results']],
+               report: 'allure-report',         
+               autoOpen: false,                 
+               properties: []                    
+             ])
         }
     }
 }

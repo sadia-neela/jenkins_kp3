@@ -19,7 +19,8 @@ Given(/^I am on the (\w+) page$/, async (page) => {
     allureUtils.setTestType('regression');
     allureUtils.setLayer('e2e');
     allureUtils.addTextAttachment('Current Page', page);
-    
+    allureUtils.setLabel('Responsible', 'Sadia Neela');
+
     await pages[page].open()
 });
 When(/^I login with (\w+) and (.+)$/, async (username, password) => {

@@ -1,0 +1,534 @@
+[90m2026-05-25T08:36:01.033Z[39m [96mINFO[39m [97m@wdio/cli:launcher[39m: Run onPrepare hook
+[1m[22m
+[1mExecution of [34m1[39m workers started at[22m 2026-05-25T08:36:01.046Z
+
+[90m2026-05-25T08:36:01.047Z[39m [96mINFO[39m [97m@wdio/utils[39m: Setting up browser driver for: chrome@stable
+[90m2026-05-25T08:36:01.048Z[39m [96mINFO[39m [97m@wdio/utils[39m: Setting up browser binaries for: chrome@stable
+[90m2026-05-25T08:36:01.052Z[39m [96mINFO[39m [97mwebdriver[39m: Using Chromedriver v148.0.7778.179 from cache directory C:\Users\S254E~1.NEE\AppData\Local\Temp
+[90m2026-05-25T08:36:01.057Z[39m [96mINFO[39m [97m@wdio/cli:launcher[39m: Run onWorkerStart hook
+[90m2026-05-25T08:36:01.058Z[39m [96mINFO[39m [97m@wdio/xvfb[39m: XvfbManager.init() called
+[90m2026-05-25T08:36:01.058Z[39m [96mINFO[39m [97m@wdio/xvfb[39m: Xvfb not needed on current platform
+[90m2026-05-25T08:36:01.059Z[39m [96mINFO[39m [97m@wdio/local-runner[39m: Start worker 0-0 with arg: 
+[90m2026-05-25T08:36:01.093Z[39m [96mINFO[39m [97m@wdio/xvfb:ProcessFactory[39m: xvfb-run not found, falling back to regular fork
+[90m2026-05-25T08:36:01.093Z[39m [96mINFO[39m [97m@wdio/xvfb:ProcessFactory[39m: ProcessFactory: shouldRun=false, isAvailable=false
+[90m2026-05-25T08:36:01.093Z[39m [96mINFO[39m [97m@wdio/xvfb:ProcessFactory[39m: Creating worker process with regular fork
+[0-0] [90m2026-05-25T08:36:02.402Z[39m [96mINFO[39m [97m@wdio/local-runner[39m: Run worker command: run
+[0-0] [1m[36mRUNNING[39m[22m in chrome - file:///C:/Users/s.neela/Documents/Senior%20Engineer%20exam%20materials/All%20projects/Allure/features/login.feature
+[0-0] [90m2026-05-25T08:36:03.214Z[39m [96mINFO[39m [97mwebdriver[39m: Initiate new session using the WebDriver protocol
+[0-0] [90m2026-05-25T08:36:03.483Z[39m [96mINFO[39m [97mwebdriver[39m: Using Chromedriver v148.0.7778.179 from cache directory C:\Users\S254E~1.NEE\AppData\Local\Temp
+[0-0] [90m2026-05-25T08:36:03.701Z[39m [96mINFO[39m [97mchromedriver[39m: Starting ChromeDriver 148.0.7778.179 (4687a88676f95bfbce9ec62314791faae363fea6-refs/branch-heads/7778@{#3197}) on port 56777
+[0-0] [90m2026-05-25T08:36:03.701Z[39m [96mINFO[39m [97mchromedriver[39m: Remote connections are allowed by an allowlist (0.0.0.0).
+[0-0] [90m2026-05-25T08:36:03.702Z[39m [96mINFO[39m [97mchromedriver[39m: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[0-0] [90m2026-05-25T08:36:03.709Z[39m [96mINFO[39m [97mchromedriver[39m: ChromeDriver was started successfully on port 56777.
+[0-0] [90m2026-05-25T08:36:03.808Z[39m [96mINFO[39m [97m@wdio/utils[39m: Started Chromedriver v148.0.7778.179 with params --port=56777 --allowed-origins=* --allowed-ips=0.0.0.0 in 341ms on port 56777
+[0-0] [90m2026-05-25T08:36:03.811Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://localhost:56777/session
+[0-0] [90m2026-05-25T08:36:04.635Z[39m [96mINFO[39m [97mwebdriver[39m: Register BiDi handler for session with id d18b7bcbe49d7828a6adc513f4e9d160
+[0-0] [90m2026-05-25T08:36:04.636Z[39m [96mINFO[39m [97mwebdriver[39m: Connecting to webSocketUrl ws://127.0.0.1:56777/session/d18b7bcbe49d7828a6adc513f4e9d160
+[0-0] [90m2026-05-25T08:36:04.652Z[39m [96mINFO[39m [97mwebdriver[39m: Connected to Bidi protocol at ws://127.0.0.1:56777/session/d18b7bcbe49d7828a6adc513f4e9d160
+[0-0] [90m2026-05-25T08:36:04.653Z[39m [96mINFO[39m [97mwebdriver[39m: Connected to WebDriver Bidi interface at ws://127.0.0.1:56777/session/d18b7bcbe49d7828a6adc513f4e9d160
+[0-0] [90m2026-05-25T08:36:04.655Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getWindowHandle()
+[0-0] [90m2026-05-25T08:36:04.656Z[39m [96mINFO[39m [97mwebdriver[39m: [35mBIDI COMMAND[39m browsingContext.getTree {}
+[0-0] [90m2026-05-25T08:36:04.658Z[39m [96mINFO[39m [97mwebdriver[39m: [35mBIDI COMMAND[39m session.subscribe {"events":["browsingContext.contextCreated"]}
+[0-0] [90m2026-05-25T08:36:04.659Z[39m [96mINFO[39m [97mwebdriver[39m: [35mBIDI COMMAND[39m session.subscribe {"events":["log.entryAdded","browsingContext.navigationStarted"]}
+[0-0] [90m2026-05-25T08:36:04.659Z[39m [96mINFO[39m [97mwebdriver[39m: [35mBIDI COMMAND[39m script.addPreloadScript { functionDeclaration: <PreloadScript[1319 bytes]>, contexts: undefined }
+[0-0] [90m2026-05-25T08:36:04.660Z[39m [96mINFO[39m [97mwebdriver[39m: [35mBIDI COMMAND[39m session.subscribe {"events":["browsingContext.navigationStarted","browsingContext.fragmentNavigated","network.responseCompleted","network.beforeRequestSent","network.fetchError"]}
+[0-0] [90m2026-05-25T08:36:04.660Z[39m [96mINFO[39m [97mwebdriver[39m: [35mBIDI COMMAND[39m session.subscribe {"events":["browsingContext.userPromptOpened"]}
+[0-0] [90m2026-05-25T08:36:04.660Z[39m [96mINFO[39m [97mwebdriver[39m: [35mBIDI COMMAND[39m session.subscribe {"events":["browsingContext.navigationStarted"]}
+[0-0] [90m2026-05-25T08:36:04.660Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/window
+[0-0] [90m2026-05-25T08:36:04.667Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m E126E219CF2D21FB44A3C9D28CEDA40B
+[0-0] [90m2026-05-25T08:36:04.671Z[39m [96mINFO[39m [97mwebdriver[39m: [36mBIDI RESULT[39m {"id":1,"result":{"contexts":[{"children":[],"clientWindow":"6324430","context":"E126E219CF2D21FB44A3C9D28CEDA40B","originalOpener":null,"parent":null,"url":"about:blank","userContext":"default"}]},"type":"success"}
+[0-0] [90m2026-05-25T08:36:04.672Z[39m [96mINFO[39m [97mwebdriverio:PolyfillManager[39m: Adding polyfill script to context with id E126E219CF2D21FB44A3C9D28CEDA40B
+[0-0] [90m2026-05-25T08:36:04.672Z[39m [96mINFO[39m [97mwebdriver[39m: [35mBIDI COMMAND[39m script.callFunction {"functionDeclaration":"<Function[443 bytes] webdriverioPolyfill>","target":{"children":[],"clientWindow":"6324430","context":"E126E219CF2D21FB44A3C9D28CEDA40B","originalOpener":null,"parent":null,"url":"about:blank","userContext":"default"},"awaitPromise":false}
+[0-0] [90m2026-05-25T08:36:04.672Z[39m [96mINFO[39m [97mwebdriver[39m: [35mBIDI COMMAND[39m script.addPreloadScript { functionDeclaration: <PreloadScript[443 bytes]>, contexts: ["E126E219CF2D21FB44A3C9D28CEDA40B"] }
+[0-0] [90m2026-05-25T08:36:04.675Z[39m [96mINFO[39m [97mwebdriver[39m: [36mBIDI RESULT[39m {"id":2,"result":{"subscription":"9abad90a-b40a-44ed-a574-bbecb57cec32"},"type":"success"}
+[0-0] [90m2026-05-25T08:36:04.676Z[39m [96mINFO[39m [97mwebdriver[39m: [36mBIDI RESULT[39m {"id":3,"result":{"subscription":"6f7263a2-b49a-4db1-b617-47e65c457ad8"},"type":"success"}
+[0-0] [90m2026-05-25T08:36:04.678Z[39m [96mINFO[39m [97mwebdriver[39m: [36mBIDI RESULT[39m {"id":5,"result":{"subscription":"8a0ebfdf-ab83-43e6-84ff-9ba2c7970377"},"type":"success"}
+[0-0] [90m2026-05-25T08:36:04.679Z[39m [96mINFO[39m [97mwebdriver[39m: [36mBIDI RESULT[39m {"id":6,"result":{"subscription":"e7d9eec1-5ee3-4b42-ae65-5ab5b31c592b"},"type":"success"}
+[0-0] [90m2026-05-25T08:36:04.680Z[39m [96mINFO[39m [97mwebdriver[39m: [36mBIDI RESULT[39m {"id":7,"result":{"subscription":"0374b11d-12c8-4371-b831-1baf4aa3788e"},"type":"success"}
+[0-0] [90m2026-05-25T08:36:04.680Z[39m [96mINFO[39m [97mwebdriver[39m: [36mBIDI RESULT[39m {"id":4,"result":{"script":"040cae1f-d062-4a4a-8a75-928bda6563ff"},"type":"success"}
+[0-0] [90m2026-05-25T08:36:04.684Z[39m [96mINFO[39m [97mwebdriver[39m: [36mBIDI RESULT[39m {"id":8,"result":{"realm":"-1465689472549847584.880325032331577256","result":{"type":"undefined"},"type":"success"},"type":"success"}
+[0-0] [90m2026-05-25T08:36:04.685Z[39m [96mINFO[39m [97mwebdriver[39m: [36mBIDI RESULT[39m {"id":9,"result":{"script":"5c9ddf87-3e97-41fb-8e46-95ffca3be22e"},"type":"success"}
+[0-0] >>> BeforeAll: Runs once before everything
+[0-0] >>> Before: Runs before each scenario
+[0-0] Scenario name: As a user, I can see message You logged into a secure area!
+[0-0] >>> BeforeStep: Before each step
+[0-0] [90m2026-05-25T08:36:04.864Z[39m [96mINFO[39m [97mwebdriver[39m: [35mBIDI COMMAND[39m browsingContext.navigate {"context":"E126E219CF2D21FB44A3C9D28CEDA40B","url":"https://the-internet.herokuapp.com/login","wait":"complete"}
+[0-0] [90m2026-05-25T08:36:08.309Z[39m [96mINFO[39m [97mwebdriver[39m: [36mBIDI RESULT[39m {"id":10,"result":{"navigation":"79ecddf5-fdb1-490d-97fd-3ba6544eee87","url":"https://the-internet.herokuapp.com/login"},"type":"success"}
+[0-0] >>> AfterStep: After each step
+[0-0] >>>>>>>>>>>>>>>>>>>>>>>.step result:  PASSED
+[0-0] >>> BeforeStep: Before each step
+[0-0] [90m2026-05-25T08:36:08.316Z[39m [96mINFO[39m [97mwebdriver[39m: [35mBIDI COMMAND[39m browsingContext.locateNodes {"locator":{"type":"css","value":"#username"},"context":"E126E219CF2D21FB44A3C9D28CEDA40B"}
+[0-0] [90m2026-05-25T08:36:08.323Z[39m [96mINFO[39m [97mwebdriver[39m: [36mBIDI RESULT[39m {"id":11,"result":{"nodes":[{"sharedId":"f.E126E219CF2D21FB44A3C9D28CEDA40B.d.D5328222B07FDC08BD1FF9C142900143.e.4","type":"node","value":{"attributes":{"id":"username","name":"username","type":"text"},"childNodeCount":0,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":{"sharedId":"f.E126E219CF2D21FB44A3C9D28CEDA40B.d.D5328222B07FDC08BD1FF9C142900143.e.9","type":"node","value":{"childNodeCount":1,"mode":"closed","nodeType":11}}}}]},"type":"success"}
+[0-0] [90m2026-05-25T08:36:08.332Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m elementClear("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.D5328222B07FDC08BD1FF9C142900143.e.4")
+[0-0] [90m2026-05-25T08:36:08.333Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.D5328222B07FDC08BD1FF9C142900143.e.4/clear
+[0-0] [90m2026-05-25T08:36:08.333Z[39m [96mINFO[39m [97mwebdriver[39m: [33mDATA[39m {}
+[0-0] [90m2026-05-25T08:36:08.386Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m [1mnull[22m
+[0-0] [90m2026-05-25T08:36:08.388Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m elementSendKeys("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.D5328222B07FDC08BD1FF9C142900143.e.4", "<Screenshot[base64]>")
+[0-0] [90m2026-05-25T08:36:08.388Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.D5328222B07FDC08BD1FF9C142900143.e.4/value
+[0-0] [90m2026-05-25T08:36:08.388Z[39m [96mINFO[39m [97mwebdriver[39m: [33mDATA[39m {"text":"tomsmith"}
+[0-0] [90m2026-05-25T08:36:08.455Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m [1mnull[22m
+[0-0] [90m2026-05-25T08:36:08.457Z[39m [96mINFO[39m [97mwebdriver[39m: [35mBIDI COMMAND[39m browsingContext.locateNodes {"locator":{"type":"css","value":"#password"},"context":"E126E219CF2D21FB44A3C9D28CEDA40B"}
+[0-0] [90m2026-05-25T08:36:08.461Z[39m [96mINFO[39m [97mwebdriver[39m: [36mBIDI RESULT[39m {"id":12,"result":{"nodes":[{"sharedId":"f.E126E219CF2D21FB44A3C9D28CEDA40B.d.D5328222B07FDC08BD1FF9C142900143.e.5","type":"node","value":{"attributes":{"id":"password","name":"password","type":"password"},"childNodeCount":0,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":{"sharedId":"f.E126E219CF2D21FB44A3C9D28CEDA40B.d.D5328222B07FDC08BD1FF9C142900143.e.11","type":"node","value":{"childNodeCount":1,"mode":"closed","nodeType":11}}}}]},"type":"success"}
+[0-0] [90m2026-05-25T08:36:08.467Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m elementClear("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.D5328222B07FDC08BD1FF9C142900143.e.5")
+[0-0] [90m2026-05-25T08:36:08.468Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.D5328222B07FDC08BD1FF9C142900143.e.5/clear
+[0-0] [90m2026-05-25T08:36:08.468Z[39m [96mINFO[39m [97mwebdriver[39m: [33mDATA[39m {}
+[0-0] [90m2026-05-25T08:36:08.501Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m [1mnull[22m
+[0-0] [90m2026-05-25T08:36:08.501Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m elementSendKeys("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.D5328222B07FDC08BD1FF9C142900143.e.5", "SuperSecretPassword")
+[0-0] [90m2026-05-25T08:36:08.502Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.D5328222B07FDC08BD1FF9C142900143.e.5/value
+[0-0] [90m2026-05-25T08:36:08.502Z[39m [96mINFO[39m [97mwebdriver[39m: [33mDATA[39m {"text":"SuperSecretPassword"}
+[0-0] [90m2026-05-25T08:36:08.564Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m [1mnull[22m
+[0-0] [90m2026-05-25T08:36:08.564Z[39m [96mINFO[39m [97mwebdriver[39m: [35mBIDI COMMAND[39m browsingContext.locateNodes {"locator":{"type":"css","value":"button[type=\"submit\"]"},"context":"E126E219CF2D21FB44A3C9D28CEDA40B"}
+[0-0] [90m2026-05-25T08:36:08.568Z[39m [96mINFO[39m [97mwebdriver[39m: [36mBIDI RESULT[39m {"id":13,"result":{"nodes":[{"sharedId":"f.E126E219CF2D21FB44A3C9D28CEDA40B.d.D5328222B07FDC08BD1FF9C142900143.e.6","type":"node","value":{"attributes":{"class":"radius","type":"submit"},"childNodeCount":1,"localName":"button","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] [90m2026-05-25T08:36:08.571Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m elementClick("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.D5328222B07FDC08BD1FF9C142900143.e.6")
+[0-0] [90m2026-05-25T08:36:08.572Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.D5328222B07FDC08BD1FF9C142900143.e.6/click
+[0-0] [90m2026-05-25T08:36:08.572Z[39m [96mINFO[39m [97mwebdriver[39m: [33mDATA[39m {}
+[0-0] [90m2026-05-25T08:36:09.312Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m [1mnull[22m
+[0-0] >>> AfterStep: After each step
+[0-0] >>>>>>>>>>>>>>>>>>>>>>>.step result:  PASSED
+[0-0] >>> BeforeStep: Before each step
+[0-0] [90m2026-05-25T08:36:09.316Z[39m [96mINFO[39m [97mwebdriver[39m: [35mBIDI COMMAND[39m browsingContext.locateNodes {"locator":{"type":"css","value":"#flash"},"context":"E126E219CF2D21FB44A3C9D28CEDA40B"}
+[0-0] [90m2026-05-25T08:36:09.322Z[39m [96mINFO[39m [97mwebdriver[39m: [36mBIDI RESULT[39m {"id":14,"result":{"nodes":[{"sharedId":"f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18","type":"node","value":{"attributes":{"class":"flash error","data-alert":"","id":"flash"},"childNodeCount":3,"localName":"div","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] [90m2026-05-25T08:36:09.326Z[39m [96mINFO[39m [97mwebdriver[39m: [35mBIDI COMMAND[39m browsingContext.locateNodes {"locator":{"type":"css","value":"#flash"},"context":"E126E219CF2D21FB44A3C9D28CEDA40B"}
+[0-0] [90m2026-05-25T08:36:09.331Z[39m [96mINFO[39m [97mwebdriver[39m: [36mBIDI RESULT[39m {"id":15,"result":{"nodes":[{"sharedId":"f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18","type":"node","value":{"attributes":{"class":"flash error","data-alert":"","id":"flash"},"childNodeCount":3,"localName":"div","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] [90m2026-05-25T08:36:09.339Z[39m [96mINFO[39m [97mwebdriver[39m: [35mBIDI COMMAND[39m browsingContext.locateNodes {"locator":{"type":"css","value":"#flash"},"context":"E126E219CF2D21FB44A3C9D28CEDA40B"}
+[0-0] [90m2026-05-25T08:36:09.344Z[39m [96mINFO[39m [97mwebdriver[39m: [36mBIDI RESULT[39m {"id":16,"result":{"nodes":[{"sharedId":"f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18","type":"node","value":{"attributes":{"class":"flash error","data-alert":"","id":"flash"},"childNodeCount":3,"localName":"div","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] [90m2026-05-25T08:36:09.351Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:09.351Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:09.370Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:09.478Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:09.479Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:09.494Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:09.607Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:09.608Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:09.623Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:09.738Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:09.738Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:09.755Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:09.871Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:09.872Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:09.891Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:10.005Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:10.005Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:10.024Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:10.136Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:10.137Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:10.156Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:10.272Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:10.273Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:10.291Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:10.404Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:10.405Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:10.423Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:10.539Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:10.540Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:10.554Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:10.656Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:10.656Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:10.674Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:10.789Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:10.789Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:10.807Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:10.920Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:10.921Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:10.940Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:11.055Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:11.056Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:11.075Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:11.189Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:11.189Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:11.205Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:11.321Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:11.322Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:11.342Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:11.453Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:11.453Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:11.466Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:11.571Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:11.571Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:11.588Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:11.705Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:11.706Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:11.725Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:11.839Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:11.839Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:11.858Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:11.971Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:11.972Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:11.990Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:12.105Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:12.106Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:12.123Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:12.238Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:12.239Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:12.257Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:12.372Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:12.373Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:12.388Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:12.504Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:12.504Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:12.522Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:12.639Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:12.639Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:12.657Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:12.772Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:12.772Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:12.791Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:12.905Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:12.906Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:12.925Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:13.039Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:13.039Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:13.058Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:13.172Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:13.172Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:13.190Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:13.294Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:13.295Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:13.312Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:13.422Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:13.423Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:13.441Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:13.555Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:13.556Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:13.574Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:13.689Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:13.689Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:13.708Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:13.821Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:13.822Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:13.841Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:13.953Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:13.953Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:13.972Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:14.086Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:14.087Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:14.099Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:14.204Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:14.204Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:14.223Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:14.338Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:14.339Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:14.357Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:14.472Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:14.472Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:14.492Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:14.605Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:14.606Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:14.620Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:14.722Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:14.723Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:14.741Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:14.853Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:14.854Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:14.871Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:14.987Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:14.988Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:15.006Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:15.121Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:15.121Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:15.138Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:15.238Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:15.239Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:15.258Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:15.371Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:15.371Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:15.390Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:15.504Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:15.505Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:15.522Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:15.637Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:15.638Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:15.655Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:15.771Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:15.771Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:15.791Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:15.905Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:15.905Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:15.926Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:16.037Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:16.038Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:16.058Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:16.171Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:16.171Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:16.185Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:16.288Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:16.288Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:16.308Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:16.421Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:16.421Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:16.434Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:16.537Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:16.538Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:16.550Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:16.654Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:16.654Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:16.666Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:16.770Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:16.770Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:16.787Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:16.904Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:16.905Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:16.919Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:17.038Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:17.038Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:17.050Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:17.154Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:17.154Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:17.166Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:17.271Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:17.271Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:17.280Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:17.380Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:17.380Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:17.410Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:17.520Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:17.521Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:17.542Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:17.655Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:17.655Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:17.670Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:17.788Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:17.789Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:17.805Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:17.921Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:17.921Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:17.932Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:18.033Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:18.033Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:18.048Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:18.151Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:18.152Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:18.162Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:18.271Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:18.271Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:18.281Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:18.387Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:18.388Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:18.409Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:18.521Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:18.521Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:18.534Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:18.637Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:18.638Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:18.657Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:18.771Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:18.772Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:18.787Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:18.903Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:18.903Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:18.925Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:19.037Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:19.037Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:19.055Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:19.167Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:19.167Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:19.177Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] [90m2026-05-25T08:36:19.288Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18")
+[0-0] [90m2026-05-25T08:36:19.288Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.85BBC4C276442971FC233AF4316DBF86.e.18/text
+[0-0] [90m2026-05-25T08:36:19.303Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your password is invalid!
+[0-0] ×
+[0-0] >>> AfterStep: After each step
+[0-0] >>>>>>>>>>>>>>>>>>>>>>>.step result:  FAILED
+[0-0] [90m2026-05-25T08:36:19.418Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m takeScreenshot()
+[0-0] [90m2026-05-25T08:36:19.419Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/screenshot
+[0-0] [90m2026-05-25T08:36:19.447Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m iVBORw0KGgoAAAANSUhEUgAAAvwAAAGxCAIAAACRFPX3AAAQAElEQVR4nOzdC...
+[0-0] [31mError[39m in "0: Then I should see a flash message saying You logged into a secure area!"
+[31mError: Expect  to have text[39m
+[31m[39m
+[31mExpected: [32mStringContaining "You logged into a secure area!"[39m[31m[39m
+[31mReceived: [31m"Your password is invalid![39m[31m[39m
+[31m[31m×"[39m[31m[39m
+[31m    at World.<anonymous> (file:///C:/Users/s.neela/Documents/Senior%20Engineer%20exam%20materials/All%20projects/Allure/features/step-definitions/steps.js:33:41)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async wrapPromiseWithTimeout (C:\Users\s.neela\Documents\Senior Engineer exam materials\All projects\Allure\node_modules\@cucumber\cucumber\src\time.ts:55:10)[39m
+[31m    at async Object.run (C:\Users\s.neela\Documents\Senior Engineer exam materials\All projects\Allure\node_modules\@cucumber\cucumber\src\user_code_runner.ts:86:16)[39m
+[31m    at async Object.run (C:\Users\s.neela\Documents\Senior Engineer exam materials\All projects\Allure\node_modules\@cucumber\cucumber\src\runtime\step_runner.ts:51:20)[39m
+[31m    at async TestCaseRunner.invokeStep (C:\Users\s.neela\Documents\Senior Engineer exam materials\All projects\Allure\node_modules\@cucumber\cucumber\src\runtime\test_case_runner.ts:144:12)[39m
+[31m    at async TestCaseRunner.runStep (C:\Users\s.neela\Documents\Senior Engineer exam materials\All projects\Allure\node_modules\@cucumber\cucumber\src\runtime\test_case_runner.ts:344:20)[39m
+[31m    at async <anonymous> (C:\Users\s.neela\Documents\Senior Engineer exam materials\All projects\Allure\node_modules\@cucumber\cucumber\src\runtime\test_case_runner.ts:250:34)[39m
+[31m    at async TestCaseRunner.aroundTestStep (C:\Users\s.neela\Documents\Senior Engineer exam materials\All projects\Allure\node_modules\@cucumber\cucumber\src\runtime\test_case_runner.ts:177:28)[39m
+[31m    at async TestCaseRunner.runAttempt (C:\Users\s.neela\Documents\Senior Engineer exam materials\All projects\Allure\node_modules\@cucumber\cucumber\src\runtime\test_case_runner.ts:228:7)[39m
+[0-0] >>> After: Runs after each scenario
+[0-0] Scenario status: FAILED
+[0-0] >>> Before: Runs before each scenario
+[0-0] Scenario name: As a user, I can see message Your username is invalid!
+[0-0] >>> BeforeStep: Before each step
+[0-0] [90m2026-05-25T08:36:19.455Z[39m [96mINFO[39m [97mwebdriver[39m: [35mBIDI COMMAND[39m browsingContext.navigate {"context":"E126E219CF2D21FB44A3C9D28CEDA40B","url":"https://the-internet.herokuapp.com/login","wait":"complete"}
+[0-0] [90m2026-05-25T08:36:19.921Z[39m [96mINFO[39m [97mwebdriver[39m: [36mBIDI RESULT[39m {"id":17,"result":{"navigation":"fee94be9-36c0-499d-ad8c-4b3619eb81fb","url":"https://the-internet.herokuapp.com/login"},"type":"success"}
+[0-0] >>> AfterStep: After each step
+[0-0] >>>>>>>>>>>>>>>>>>>>>>>.step result:  PASSED
+[0-0] >>> BeforeStep: Before each step
+[0-0] [90m2026-05-25T08:36:19.923Z[39m [96mINFO[39m [97mwebdriver[39m: [35mBIDI COMMAND[39m browsingContext.locateNodes {"locator":{"type":"css","value":"#username"},"context":"E126E219CF2D21FB44A3C9D28CEDA40B"}
+[0-0] [90m2026-05-25T08:36:19.930Z[39m [96mINFO[39m [97mwebdriver[39m: [36mBIDI RESULT[39m {"id":18,"result":{"nodes":[{"sharedId":"f.E126E219CF2D21FB44A3C9D28CEDA40B.d.B804D56B35C0C547C822216F5E91E5CE.e.51","type":"node","value":{"attributes":{"id":"username","name":"username","type":"text"},"childNodeCount":0,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":{"sharedId":"f.E126E219CF2D21FB44A3C9D28CEDA40B.d.B804D56B35C0C547C822216F5E91E5CE.e.56","type":"node","value":{"childNodeCount":1,"mode":"closed","nodeType":11}}}}]},"type":"success"}
+[0-0] [90m2026-05-25T08:36:19.934Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m elementClear("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.B804D56B35C0C547C822216F5E91E5CE.e.51")
+[0-0] [90m2026-05-25T08:36:19.934Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.B804D56B35C0C547C822216F5E91E5CE.e.51/clear
+[0-0] [90m2026-05-25T08:36:19.934Z[39m [96mINFO[39m [97mwebdriver[39m: [33mDATA[39m {}
+[0-0] [90m2026-05-25T08:36:19.964Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m [1mnull[22m
+[0-0] [90m2026-05-25T08:36:19.965Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m elementSendKeys("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.B804D56B35C0C547C822216F5E91E5CE.e.51", "foobar")
+[0-0] [90m2026-05-25T08:36:19.965Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.B804D56B35C0C547C822216F5E91E5CE.e.51/value
+[0-0] [90m2026-05-25T08:36:19.965Z[39m [96mINFO[39m [97mwebdriver[39m: [33mDATA[39m {"text":"foobar"}
+[0-0] [90m2026-05-25T08:36:20.018Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m [1mnull[22m
+[0-0] [90m2026-05-25T08:36:20.019Z[39m [96mINFO[39m [97mwebdriver[39m: [35mBIDI COMMAND[39m browsingContext.locateNodes {"locator":{"type":"css","value":"#password"},"context":"E126E219CF2D21FB44A3C9D28CEDA40B"}
+[0-0] [90m2026-05-25T08:36:20.023Z[39m [96mINFO[39m [97mwebdriver[39m: [36mBIDI RESULT[39m {"id":19,"result":{"nodes":[{"sharedId":"f.E126E219CF2D21FB44A3C9D28CEDA40B.d.B804D56B35C0C547C822216F5E91E5CE.e.52","type":"node","value":{"attributes":{"id":"password","name":"password","type":"password"},"childNodeCount":0,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":{"sharedId":"f.E126E219CF2D21FB44A3C9D28CEDA40B.d.B804D56B35C0C547C822216F5E91E5CE.e.60","type":"node","value":{"childNodeCount":1,"mode":"closed","nodeType":11}}}}]},"type":"success"}
+[0-0] [90m2026-05-25T08:36:20.029Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m elementClear("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.B804D56B35C0C547C822216F5E91E5CE.e.52")
+[0-0] [90m2026-05-25T08:36:20.029Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.B804D56B35C0C547C822216F5E91E5CE.e.52/clear
+[0-0] [90m2026-05-25T08:36:20.030Z[39m [96mINFO[39m [97mwebdriver[39m: [33mDATA[39m {}
+[0-0] [90m2026-05-25T08:36:20.063Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m [1mnull[22m
+[0-0] [90m2026-05-25T08:36:20.064Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m elementSendKeys("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.B804D56B35C0C547C822216F5E91E5CE.e.52", "barfoo")
+[0-0] [90m2026-05-25T08:36:20.064Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.B804D56B35C0C547C822216F5E91E5CE.e.52/value
+[0-0] [90m2026-05-25T08:36:20.064Z[39m [96mINFO[39m [97mwebdriver[39m: [33mDATA[39m {"text":"barfoo"}
+[0-0] [90m2026-05-25T08:36:20.115Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m [1mnull[22m
+[0-0] [90m2026-05-25T08:36:20.115Z[39m [96mINFO[39m [97mwebdriver[39m: [35mBIDI COMMAND[39m browsingContext.locateNodes {"locator":{"type":"css","value":"button[type=\"submit\"]"},"context":"E126E219CF2D21FB44A3C9D28CEDA40B"}
+[0-0] [90m2026-05-25T08:36:20.119Z[39m [96mINFO[39m [97mwebdriver[39m: [36mBIDI RESULT[39m {"id":20,"result":{"nodes":[{"sharedId":"f.E126E219CF2D21FB44A3C9D28CEDA40B.d.B804D56B35C0C547C822216F5E91E5CE.e.53","type":"node","value":{"attributes":{"class":"radius","type":"submit"},"childNodeCount":1,"localName":"button","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] [90m2026-05-25T08:36:20.123Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m elementClick("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.B804D56B35C0C547C822216F5E91E5CE.e.53")
+[0-0] [90m2026-05-25T08:36:20.124Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.B804D56B35C0C547C822216F5E91E5CE.e.53/click
+[0-0] [90m2026-05-25T08:36:20.124Z[39m [96mINFO[39m [97mwebdriver[39m: [33mDATA[39m {}
+[0-0] [90m2026-05-25T08:36:20.914Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m [1mnull[22m
+[0-0] >>> AfterStep: After each step
+[0-0] >>>>>>>>>>>>>>>>>>>>>>>.step result:  PASSED
+[0-0] >>> BeforeStep: Before each step
+[0-0] [90m2026-05-25T08:36:20.916Z[39m [96mINFO[39m [97mwebdriver[39m: [35mBIDI COMMAND[39m browsingContext.locateNodes {"locator":{"type":"css","value":"#flash"},"context":"E126E219CF2D21FB44A3C9D28CEDA40B"}
+[0-0] [90m2026-05-25T08:36:20.921Z[39m [96mINFO[39m [97mwebdriver[39m: [36mBIDI RESULT[39m {"id":21,"result":{"nodes":[{"sharedId":"f.E126E219CF2D21FB44A3C9D28CEDA40B.d.382CFEB46F7D147F88813C0D0107A9EA.e.67","type":"node","value":{"attributes":{"class":"flash error","data-alert":"","id":"flash"},"childNodeCount":3,"localName":"div","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] [90m2026-05-25T08:36:20.924Z[39m [96mINFO[39m [97mwebdriver[39m: [35mBIDI COMMAND[39m browsingContext.locateNodes {"locator":{"type":"css","value":"#flash"},"context":"E126E219CF2D21FB44A3C9D28CEDA40B"}
+[0-0] [90m2026-05-25T08:36:20.929Z[39m [96mINFO[39m [97mwebdriver[39m: [36mBIDI RESULT[39m {"id":22,"result":{"nodes":[{"sharedId":"f.E126E219CF2D21FB44A3C9D28CEDA40B.d.382CFEB46F7D147F88813C0D0107A9EA.e.67","type":"node","value":{"attributes":{"class":"flash error","data-alert":"","id":"flash"},"childNodeCount":3,"localName":"div","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] [90m2026-05-25T08:36:20.936Z[39m [96mINFO[39m [97mwebdriver[39m: [35mBIDI COMMAND[39m browsingContext.locateNodes {"locator":{"type":"css","value":"#flash"},"context":"E126E219CF2D21FB44A3C9D28CEDA40B"}
+[0-0] [90m2026-05-25T08:36:20.941Z[39m [96mINFO[39m [97mwebdriver[39m: [36mBIDI RESULT[39m {"id":23,"result":{"nodes":[{"sharedId":"f.E126E219CF2D21FB44A3C9D28CEDA40B.d.382CFEB46F7D147F88813C0D0107A9EA.e.67","type":"node","value":{"attributes":{"class":"flash error","data-alert":"","id":"flash"},"childNodeCount":3,"localName":"div","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] [90m2026-05-25T08:36:20.944Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f.E126E219CF2D21FB44A3C9D28CEDA40B.d.382CFEB46F7D147F88813C0D0107A9EA.e.67")
+[0-0] [90m2026-05-25T08:36:20.945Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160/element/f.E126E219CF2D21FB44A3C9D28CEDA40B.d.382CFEB46F7D147F88813C0D0107A9EA.e.67/text
+[0-0] [90m2026-05-25T08:36:20.959Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your username is invalid!
+[0-0] ×
+[0-0] >>> AfterStep: After each step
+[0-0] >>>>>>>>>>>>>>>>>>>>>>>.step result:  PASSED
+[0-0] >>> After: Runs after each scenario
+[0-0] Scenario status: PASSED
+[0-0] >>> AfterAll: Runs once after everything
+[0-0] [90m2026-05-25T08:36:20.963Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m deleteSession()
+[0-0] [90m2026-05-25T08:36:20.963Z[39m [96mINFO[39m [97mwebdriver[39m: [DELETE] http://localhost:56777/session/d18b7bcbe49d7828a6adc513f4e9d160
+[0-0] [90m2026-05-25T08:36:21.118Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m [1mnull[22m
+[0-0] [90m2026-05-25T08:36:21.118Z[39m [96mINFO[39m [97mwebdriver[39m: Close Bidi connection to ws://127.0.0.1:56777/session/d18b7bcbe49d7828a6adc513f4e9d160
+[0-0] [90m2026-05-25T08:36:21.119Z[39m [96mINFO[39m [97mwebdriver[39m: Kill driver process with PID 3512
+[0-0] [1m[31mFAILED[39m[22m in chrome - file:///C:/Users/s.neela/Documents/Senior%20Engineer%20exam%20materials/All%20projects/Allure/features/login.feature
+[90m2026-05-25T08:36:21.273Z[39m [96mINFO[39m [97m@wdio/cli:launcher[39m: Run onWorkerEnd hook
+
+ [1m[35m"spec" Reporter:[39m[22m
+------------------------------------------------------------------
+[chrome 148.0.7778.179 windows #0-0] Running: chrome (v148.0.7778.179) on windows
+[chrome 148.0.7778.179 windows #0-0] Session ID: d18b7bcbe49d7828a6adc513f4e9d160
+[chrome 148.0.7778.179 windows #0-0]
+[chrome 148.0.7778.179 windows #0-0] » features\login.feature
+[chrome 148.0.7778.179 windows #0-0] The Internet
+[chrome 148.0.7778.179 windows #0-0] As a user, I can see message You logged into a secure area!
+[chrome 148.0.7778.179 windows #0-0]    [32m✓[39m Given I am on the login page
+[chrome 148.0.7778.179 windows #0-0]    [32m✓[39m When I login with tomsmith and SuperSecretPassword
+[chrome 148.0.7778.179 windows #0-0]    [31m✖[39m Then I should see a flash message saying You logged into a secure area!
+[chrome 148.0.7778.179 windows #0-0]
+[chrome 148.0.7778.179 windows #0-0] As a user, I can see message Your username is invalid!
+[chrome 148.0.7778.179 windows #0-0]    [32m✓[39m Given I am on the login page
+[chrome 148.0.7778.179 windows #0-0]    [32m✓[39m When I login with foobar and barfoo
+[chrome 148.0.7778.179 windows #0-0]    [32m✓[39m Then I should see a flash message saying Your username is invalid!
+[chrome 148.0.7778.179 windows #0-0]
+[chrome 148.0.7778.179 windows #0-0] [32m5 passing (16.4s)[39m
+[chrome 148.0.7778.179 windows #0-0] [31m1 failing[39m
+[chrome 148.0.7778.179 windows #0-0]
+[chrome 148.0.7778.179 windows #0-0] 1) As a user, I can see message You logged into a secure area! Then I should see a flash message saying You logged into a secure area!
+[chrome 148.0.7778.179 windows #0-0] [31mError: Expect  to have text[39m
+[chrome 148.0.7778.179 windows #0-0] [90mError: Expect  to have text[39m
+[chrome 148.0.7778.179 windows #0-0]
+[chrome 148.0.7778.179 windows #0-0] [90mExpected: StringContaining "You logged into a secure area!"[39m
+[chrome 148.0.7778.179 windows #0-0] [90mReceived: "Your password is invalid![39m
+[chrome 148.0.7778.179 windows #0-0] [90m×"[39m
+[chrome 148.0.7778.179 windows #0-0] [90m    at World.<anonymous> (file:///C:/Users/s.neela/Documents/Senior%20Engineer%20exam%20materials/All%20projects/Allure/features/step-definitions/steps.js:33:41)[39m
+[chrome 148.0.7778.179 windows #0-0] [90m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[chrome 148.0.7778.179 windows #0-0] [90m    at async wrapPromiseWithTimeout (C:\Users\s.neela\Documents\Senior Engineer exam materials\All projects\Allure\node_modules\@cucumber\cucumber\src\time.ts:55:10)[39m
+[chrome 148.0.7778.179 windows #0-0] [90m    at async Object.run (C:\Users\s.neela\Documents\Senior Engineer exam materials\All projects\Allure\node_modules\@cucumber\cucumber\src\user_code_runner.ts:86:16)[39m
+[chrome 148.0.7778.179 windows #0-0] [90m    at async Object.run (C:\Users\s.neela\Documents\Senior Engineer exam materials\All projects\Allure\node_modules\@cucumber\cucumber\src\runtime\step_runner.ts:51:20)[39m
+[chrome 148.0.7778.179 windows #0-0] [90m    at async TestCaseRunner.invokeStep (C:\Users\s.neela\Documents\Senior Engineer exam materials\All projects\Allure\node_modules\@cucumber\cucumber\src\runtime\test_case_runner.ts:144:12)[39m
+[chrome 148.0.7778.179 windows #0-0] [90m    at async TestCaseRunner.runStep (C:\Users\s.neela\Documents\Senior Engineer exam materials\All projects\Allure\node_modules\@cucumber\cucumber\src\runtime\test_case_runner.ts:344:20)[39m
+[chrome 148.0.7778.179 windows #0-0] [90m    at async <anonymous> (C:\Users\s.neela\Documents\Senior Engineer exam materials\All projects\Allure\node_modules\@cucumber\cucumber\src\runtime\test_case_runner.ts:250:34)[39m
+[chrome 148.0.7778.179 windows #0-0] [90m    at async TestCaseRunner.aroundTestStep (C:\Users\s.neela\Documents\Senior Engineer exam materials\All projects\Allure\node_modules\@cucumber\cucumber\src\runtime\test_case_runner.ts:177:28)[39m
+[chrome 148.0.7778.179 windows #0-0] [90m    at async TestCaseRunner.runAttempt (C:\Users\s.neela\Documents\Senior Engineer exam materials\All projects\Allure\node_modules\@cucumber\cucumber\src\runtime\test_case_runner.ts:228:7)[39m
+
+
+Spec Files:	 [32m0 passed[39m, [31m1 failed[39m, 1 total (100% completed) in 00:00:20  
+
+[90m2026-05-25T08:36:21.275Z[39m [96mINFO[39m [97m@wdio/local-runner[39m: Shutting down spawned worker
+[90m2026-05-25T08:36:21.528Z[39m [96mINFO[39m [97m@wdio/local-runner[39m: Waiting for 0 to shut down gracefully
+[90m2026-05-25T08:36:21.528Z[39m [96mINFO[39m [97m@wdio/local-runner[39m: shutting down
+[90m2026-05-25T08:36:21.528Z[39m [96mINFO[39m [97m@wdio/cli:launcher[39m: Run onComplete hook
