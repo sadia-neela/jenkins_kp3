@@ -1,0 +1,13 @@
+[
+    {
+      "name": "Element Not Found",
+      "description": "Expected element does not exist in DOM",
+      "messageRegex": ".*Expect.*to be existing.*|.*element not found.*",
+      "matchedStatuses": ["failed"]
+    },
+  {
+    "name": "Infrastructure problems",
+    "messageRegex": ".*RuntimeException.*",
+    "matchedStatuses": ["failed"]
+  }
+]

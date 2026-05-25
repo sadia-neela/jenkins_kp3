@@ -1,0 +1,3 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","17156","As a user, I can see message You logged into a secure area!","The Internet","2026-05-25","failed","2026-05-25","","","",""
+"","1521","As a user, I can see message Your username is invalid!","The Internet","2026-05-25","passed","2026-05-25","","","",""
