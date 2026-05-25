@@ -14,13 +14,13 @@ pipeline {
 
         stage('Install Dependencies') {
             steps {
-                sh 'npm install'
+                bat 'npm install'
             }
         }
 
         stage('Run Tests') {
             steps {
-                sh 'npx wdio run wdio.conf.js'
+                bat 'npx wdio run wdio.conf.js'
             }
         }
     }
