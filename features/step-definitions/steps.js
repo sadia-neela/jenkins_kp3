@@ -10,16 +10,16 @@ const pages = {
 }
 const allureUtils = new AllureUtils();
 Given(/^I am on the (\w+) page$/, async (page) => {
-    allureUtils.setFeature('Web Page Navigation');
-    allureUtils.setEpic('User Authentication');
-    allureUtils.setStory('Login Page Access');
-    allureUtils.setSeverity('trivial');
-    allureUtils.setTag('smoke');
-    allureUtils.setOwner('QA Team');
-    allureUtils.setTestType('regression');
-    allureUtils.setLayer('e2e');
-    allureUtils.addTextAttachment('Current Page', page);
-    allureUtils.setLabel('Responsible', 'Sadia Neela');
+    // allureUtils.setFeature('Web Page Navigation');
+    // allureUtils.setEpic('User Authentication');
+    // allureUtils.setStory('Login Page Access');
+    // allureUtils.setSeverity('trivial');
+    // allureUtils.setTag('smoke');
+    // allureUtils.setOwner('QA Team');
+    // allureUtils.setTestType('regression');
+    // allureUtils.setLayer('e2e');
+    // allureUtils.addTextAttachment('Current Page', page);
+    // allureUtils.setLabel('Responsible', 'Sadia Neela');
 
     await pages[page].open()
 });
