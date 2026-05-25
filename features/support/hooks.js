@@ -14,7 +14,7 @@ Before(function (scenario) {
   const labelValue = process.env.LABEL;
 
   if (labelValue) {
-    AllureReporter.addTag('customLabel', labelValue);
+    AllureReporter.addTag(labelValue);
     console.log(`Added label: customLabel = ${labelValue}`);
   }
 });
