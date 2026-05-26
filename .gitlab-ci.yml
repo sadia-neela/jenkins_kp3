@@ -1,4 +1,5 @@
-image: node:18
+# Use Node + Chrome image
+image: markhobson/node-chrome:latest
 
 stages:
   - setup
@@ -6,15 +7,12 @@ stages:
   - report
 
 variables:
-  LABEL: "smoke"  # Default value, can be overridden
+  LABEL: "smoke"
 
 cache:
   paths:
     - node_modules/
 
-# ============================================
-# SETUP STAGE - Runs npm install ONLY ONCE
-# ============================================
 install_dependencies:
   stage: setup
   script:
@@ -22,41 +20,28 @@ install_dependencies:
   artifacts:
     paths:
       - node_modules/
-    expire_in: 1 hour  # Node modules don't need to persist long
-  only:
-    - main
-    - merge_requests
-    - branches
+    expire_in: 1 hour
 
-# ============================================
-# TEST STAGE - Multiple tests can run in parallel
-# ============================================
 run_tests:
   stage: test
   needs:
-    - install_dependencies  # Wait for deps, but doesn't re-run install
+    - install_dependencies
   variables:
     LABEL: ${LABEL}
   script:
     - echo "Running tests with LABEL=${LABEL}"
+    # Chrome is already installed in the image
     - npx wdio run wdio.conf.js
   artifacts:
     when: always
     paths:
       - allure-results/
     expire_in: 1 week
-  only:
-    - main
-    - merge_requests
-    - branches
 
-# ============================================
-# REPORT STAGE - Generate Allure report
-# ============================================
 generate_allure_report:
   stage: report
   needs:
-    - run_tests  # Wait for tests to complete
+    - run_tests
   script:
     - npx allure generate allure-results --clean -o allure-report
   artifacts:
@@ -64,6 +49,3 @@ generate_allure_report:
     paths:
       - allure-report/
     expire_in: 30 days
-  only:
-    - main
-    - merge_requests
